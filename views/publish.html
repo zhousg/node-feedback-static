@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>反馈系统-填写</title>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../public/css/index.css">
+</head>
+<body>
+<div class="container">
+    <div class="page-header">
+        <h1><a href="#">反馈系统</a>
+            <small>填写</small>
+        </h1>
+    </div>
+    <div class="col-md-6">
+        <form autocomplete="off">
+            <div class="form-group">
+                <label for="username">昵称</label>
+                <input type="text" class="form-control" placeholder="请输入昵称">
+            </div>
+            <div class="form-group">
+                <label for="feedback">反馈内容</label>
+                <textarea class="form-control" rows="5" placeholder="请输入反馈内容"></textarea>
+            </div>
+            <button type="reset" class="btn btn-default">取消</button>
+            <button type="submit" class="btn btn-primary">提交</button>
+        </form>
+    </div>
+</div>
+<script src="../public/js/index.js"></script>
+</body>
+</html>
