@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/zhousg/node-feedback-static#readme",
   "dependencies": {
-    "bootstrap": "^4.1.1",
+    "bootstrap": "^3.3.7",
     "jquery": "^3.3.1"
   }
 }
